@@ -13,3 +13,27 @@
 .cajon.color-acento-contenido
   background-color: #c3ebf5
   
+.tarjeta--tabla
+  padding: 0 !important
+  border-radius: 10%
+
+$azulClarito: #47a0e6
+$azulOscuro: #0f2771
+$gradiente1: $azulClarito 0%, $azulOscuro 100%
+@mixin gradient($direction, $list)
+  background: -webkit-linear-gradient($direction, $list)
+  background: -moz-linear-gradient($direction, $list)
+  background: -o-linear-gradient($direction, $list)
+  background: linear-gradient($direction, $list)
+
+.g1
+  @include gradient(180deg, $gradiente1)
+
+.tabs-a__tab
+  background-color: #e8e8e8 
+.color-custom
+  background-color: #befafa
+  border-radius: 10px
+
+.tarjeta--azul
+  background-color: #f2f6fe
