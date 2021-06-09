@@ -8,19 +8,73 @@
       h1 Naturaleza de los productos
 
     p.mb-5 La naturaleza de los productos hace de la logística un trabajo diferenciador, casi que individualizado, un producto hace que exista un eslabón, y éste, dependiendo de su naturaleza, medidas físicas o sus propiedades, las precauciones para su manejo y el tipo de presentación, debe ser adecuado a una tipología de carga, un embalaje y una distribución; tal como se menciona a continuación.
-      // PENDIENTE DE MAQUETA
-        .col-2.tarjeta--tabla
-          figure
-            img.mb-4(src='@/assets/curso/tema2/img.svg' alt='AvatarTop', style="width: 250px;")
-          .h4.text-center.mb-4 Carga a<br> temperatura <br> controlada
-          figure(style="text-align: -webkit-center;")
-            img.mb-4(src='@/assets/curso/tema2/img2.svg' alt='AvatarTop', style="width: 100px;")
+      
+    .row.justify-content-center.mb-5
+      .col.mb-4(style="padding:4px;")
+        .arrow-crd
+          .arrow-crd__header
+            p 1
+          .arrow-crd__body
+            p Carga General
+            figure.mb-4
+              img.mb-4(src='@/assets/curso/tema2/icon2.svg',alt='AvatarTop')
+      .col.mb-4(style="padding:4px;")
+        .arrow-crd.arrow-crd_oddCl
+          .arrow-crd__header--azul
+            p 2
+          .arrow-crd__body
+            p Carga <br> Granel
+            figure.mb-4
+              img.mb-4(src='@/assets/curso/tema2/icon1.svg',alt='AvatarTop')
+      .col.mb-4(style="padding:4px;")
+        .arrow-crd
+          .arrow-crd__header.mb-4
+            p 3
+          .arrow-crd__body(style="padding: 0;")
+            p Carga sobredimensionada
+            figure
+              img.mb-4(src='@/assets/curso/tema2/icon2.svg',alt='AvatarTop', style="width:100px").mx-auto
+      .col.mb-4(style="padding:4px;")
+        .arrow-crd.arrow-crd_oddCl
+          .arrow-crd__header--azul
+            p 4
+          .arrow-crd__body
+            p.mb-0 Carga a<br> temperatura<br>controlada
+            figure
+              img.mb-4(src='@/assets/curso/tema2/icon1.svg',alt='AvatarTop')
+      .col.mb-4(style="padding:4px;")
+        .arrow-crd
+          .arrow-crd__header
+            p 5
+          .arrow-crd__body
+            p Carga perecedera
+            figure
+              img.mb-4(src='@/assets/curso/tema2/icon2.svg',alt='AvatarTop')
+      .col.mb-4(style="padding:4px;")
+        .arrow-crd.arrow-crd_oddCl
+          .arrow-crd__header--azul
+            p 6
+          .arrow-crd__body
+            p Carga<br> frágil
+            figure.mb-4
+              img.mb-4(src='@/assets/curso/tema2/icon1.svg',alt='AvatarTop')
+      .col.mb-4(style="padding:4px;")
+        .arrow-crd
+          .arrow-crd__header
+            p 7
+          .arrow-crd__body
+            p Mercancías peligrosas
+            figure
+              img.mb-4(src='@/assets/curso/tema2/icon2.svg',alt='AvatarTop')
 
-    figure.mb-4
-      img.mb-4(
-        src='@/assets/curso/tema2/tars.svg',
-        alt='Tipologia de las cargas'
-      )
+      .col.mb-4(style="padding:4px;")
+        .arrow-crd
+          .arrow-crd__header--azul
+            p 8
+          .arrow-crd__body
+            p Otros <br>tipos
+            figure.mb-4
+              img.mb-4(src='@/assets/curso/tema2/icon1.svg',alt='AvatarTop')
 
     .row.justify-content-center
       .col-lg-12.align-self-center
@@ -187,11 +241,7 @@
                       p Son los alimentos frescos que tienen que ser consumidos en un corto plazo y cuya vida útil, calidad y seguridad dependen del estricto control de la temperatura de transporte y condiciones de manipulación y almacenamiento; poseen una fecha de vencimiento y en su manejo de inventarios hay que dar salida primero a los más antiguos.
                 .col-lg-7
                   figure(style='text-align: -webkit-center')
-                    img.mb-4(
-                      src='@/assets/curso/tema2/img9.svg',
-                      alt='Temperatura ambiente',
-                      style='max-width: 450px'
-                    )
+                    img.mb-4( src='@/assets/curso/tema2/img9.svg',alt='Temperatura ambiente',style='max-width: 450px')
                   .row.justify-content-center
                     .col-lg-10
                       ul.lista-ul
@@ -242,7 +292,7 @@
               //- estas clases tambien tienen un modificador --borde
               .tarjeta.g1.p-md-5.mb-5(style='padding:26px !important;')
                 .row.justify-content-around.align-items-center
-                  .col-2.col-sm-2.col-md-2.mb-4.mb-md-0
+                  .col-lg-2.mb-4.mb-md-0
                     img(src='@/assets/curso/tema2/img11.svg', alt='e-book', style='max-width:100px;').mx-auto
 
                   .col-md.col-lg-7
@@ -251,7 +301,8 @@
                       p.mb-0 #[strong Autor :] Ministerio de Educación Superior
                       p.mb-0 Editorial Universitaria.
                       p.mb-0 #[strong Año :] 2015
-                      p.mb-0 #[strong Base de datos SENA :]  https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/71609?page=1
+                      p.mb-0 #[strong Base de datos SENA :] 
+                      p.mb-0 https://elibro-net.bdigital.<br>sena.edu.co/es/ereader/<br>senavirtual/71609?page=1
                   .col-lg-3
                     a.boton.color-acento-bonotes.texto-blanco.mx-auto(
                       href='https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/71609?page=1',
@@ -268,7 +319,7 @@
             alt='AvatarNum',
             style='align-self: flex-start; margin-top: 25px'
           )
-          .tarjeta.transparent1
+          .tarjeta.transparent1(style='border-bottom: 2px solid #afafaf;')
             .p-4
               .h4 Otros tipos
               p.mb-4 En esta clasificación entran los granos, el carbón, el mineral de hierro, la madera, el cemento, la sal, etc.
@@ -396,35 +447,10 @@
 
     .h3.mb-4 Tipos de embalaje
     p.mb-5 El embalaje se encarga de la apropiación y conservación de la carga y se hace en varios niveles de optimización, dentro de esta optimización hay varios elementos que se deben tener en cuenta y por eso se hacen varios tipos de embalaje como se describe a continuación:
-
-    .tarjeta.tarjeta--azul.p-4.mb-5
-      SlyderA
-        .row
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              
-
-        div
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            
-
-        .row
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              
-
-        div
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+    
+    .row.justify-content-center
+      .col-lg-10
+        SlyderB.mb-5(:datos='datosSlyder')
             
 
     .h3.mb-4 Funciones
@@ -620,11 +646,17 @@
 
     .titulo-quinto.color-acento-contenido
       h4 Pictografía Internacional ISO
-    
+
     .row.justify-content-center
       .col-lg-10
-        figure.mb-5
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+        .row.justify-content-center
+          .col-lg-6
+            figure.mb-5
+              img(src='@/assets/curso/tema2/pictografia/picto1.svg', alt='Pictografía Internacional ISO')
+          .col-lg-6
+            figure.mb-5
+              img(src='@/assets/curso/tema2/pictografia/picto2.svg', alt='Pictografía Internacional ISO')
+        
 
     .h3.mb-4 Marcado y etiquetado
     p.mb-5 Es el conjunto de marcas o símbolos especiales que se deben colocar a las unidades de carga tales como cajas, contenedores o barriles, para ser identificados como carga.
@@ -722,6 +754,64 @@ export default {
   name: 'Tema2',
   data: () => ({
     // variables de vue
+    datosSlyder: [
+      {
+        titulo: 'Embalaje combinado',
+        texto:
+          ' Es la combinación de diversos envases dispuestos en un mismo embalaje para su manipulación y transporte.',
+        imagen: require('@/assets/curso/tema2/slyder/slyder1.svg'),
+        // leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
+        titulo: 'Embalaje compuesto',
+        texto:
+          'Es un embalaje constituido por un recipiente interior formando un conjunto indisociable',
+        imagen: require('@/assets/curso/tema2/slyder/slyder2.svg'),
+        // leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
+        titulo: 'Embalaje exterior',
+        texto:
+          ' Es la protección externa de un embalaje compuesto por materiales absorbentes, materiales de relleno cualquier otro tipo de material necesario para contener y proteger los recipientes interiores o los envases interiores.',
+        imagen: require('@/assets/curso/tema2/slyder/slyder3.svg'),
+        //leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
+        titulo: 'Embalaje intermedio',
+        texto:
+          ' Es un embalaje que contiene envases interiores u objetos y, a su vez, está contenido en un embalaje exterior.',
+        imagen: require('@/assets/curso/tema2/slyder/slyder4.svg'),
+        //leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
+        titulo: 'Sobre embalaje',
+        texto:
+          'Recipiente o envoltura utilizada para contener varios bultos y conseguir una unidad de carga de más fácil manipulación y estiba.',
+        imagen: require('@/assets/curso/tema2/slyder/slyder5.svg'),
+        //leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
+        titulo: 'Embalaje listo para la venta',
+        texto:
+          'Es el embalaje secundario que agrupa a varios empaques primarios y está listo para la venta.',
+        imagen: require('@/assets/curso/tema2/slyder/slyder6.svg'),
+        //leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
+        titulo: 'Embalaje de estanco a los pulverulentos',
+        texto:
+          'Es aquel envase que impide la entrada de contenidos sólidos y secos, incluidas las que se producen o pueden estar presentes durante el transporte.',
+        imagen: require('@/assets/curso/tema2/slyder/slyder7.svg'),
+        //leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
+        titulo: 'Otros tipos de embalaje PENDIENTE CON ANEXO',
+        texto:
+          'Es aquel envase que impide la entrada de contenidos sólidos y secos, incluidas las que se producen o pueden estar presentes durante el transporte.',
+        imagen: require('@/assets/curso/tema2/slyder/slyder8.svg'),
+        //leyendaImagen: 'Leyenda de la imagen',
+      },
+    ],
   }),
 }
 </script>
