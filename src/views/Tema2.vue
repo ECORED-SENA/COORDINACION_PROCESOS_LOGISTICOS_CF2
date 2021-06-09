@@ -452,6 +452,13 @@
       .col-lg-10
         SlyderB.mb-5(:datos='datosSlyder')
             
+    .row.justify-content-center.mb-4
+      .col-lg-4
+        a.anexo(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p Anexo. Otros tipos de embalaje
 
     .h3.mb-4 Funciones
     p.mb-5 En general las funciones de los empaques y los embalajes están dadas por la función que se cumple con el producto y para cada uno de los productos son diferentes, a continuación, se presenta una tabla de funciones básicas basados en el conocimiento de Castellanos (2015):
