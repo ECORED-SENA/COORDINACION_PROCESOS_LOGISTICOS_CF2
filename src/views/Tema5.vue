@@ -28,7 +28,7 @@
         figure
           img(src='@/assets/curso/tema5/img2.svg', alt='Subprocesos de almacenamiento', style='width:500px;').mx-auto
 
-    .separador
+    .separador-custom
 
     #t_5_1.titulo-segundo
       .h2 5.1 Producción y/o logística interna
@@ -44,7 +44,7 @@
         figure
           img(src='@/assets/curso/tema5/img3.svg', alt='Subprocesos de almacenamiento')
 
-    .separador
+    .separador-custom
 
     #t_5_2.titulo-segundo
       .h2 5.2 Recibo y almacenamiento
@@ -87,7 +87,7 @@
           .col-lg-11
             p Se produce como fruto de un convenio entre el proveedor y el cliente, y se suprimen las verificaciones ordinarias de los envíos del proveedor y se agilizan las recepciones, lo que se traduce en un significativo ahorro.
 
-    .separador
+    .separador-custom
 
 
 
@@ -114,7 +114,7 @@
             .col-lg-11
               p.mb-4 Una vez separados los bienes que deben ser despachados e individualizados, se configura el pedido total y se procede al embalaje y la marcación o etiquetado.
 
-    .separador
+    .separador-custom
 
     #t_5_4.titulo-segundo
       .h2 5.4 Cubicaje
@@ -139,7 +139,7 @@
           p.mb-5 #[strong Peso  ]  (Peso de la carga + peso del empaque + peso dela estiba)
           p El resultado será expresado en Ton/m3 - Tonelada metro cúbico
 
-    .separador
+    .separador-custom
 
     #t_5_5.titulo-segundo
       .h2 5.5 Cross docking
@@ -171,7 +171,7 @@
                     span 2
                   | Cuando al proveedor se le solicita un pedido indicando como subdividirlo, este llega al CEDI, se le adecua un espacio en el muelle y se genera un despacho para el destinatario.
     
-    .separador
+    .separador-custom
 
     #t_5_6.titulo-segundo
       .h2 5.6  Sistemas de gestión de calidad
@@ -193,7 +193,7 @@
         p Se pretende garantizar que los productos hayan permanecido en todo momento dentro de unos márgenes aceptables en relación a la temperatura del producto desde su almacenamiento, en su caso, que el tiempo que han estado en dicha situación ha sido lo suficientemente corto como para considerarlo aceptable, en función de las especificaciones aportadas por el fabricante.
         
 
-    .separador
+    .separador-custom
 
 
     #t_5_7.titulo-segundo
@@ -243,7 +243,7 @@
 
     p.mb-4 El envasado, embalado, rotulado y etiquetado debe estar conforme a la normatividad vigente, principalmente cuando se trate de residuos peligrosos, en Colombia es la Ley 55 de 1993 que se recomienda revisar por su parte de manera independiente.
     
-    .separador
+    .separador-custom
 
     #t_5_8.titulo-segundo
       .h2 5.8  Automatización y robótica, las nuevas tendencias
@@ -317,7 +317,7 @@
             figure
               img(src='@/assets/curso/tema5/img12.svg', alt='Robotización', style='width:430px;').mx-auto
               
-    .separador
+    .separador-custom
 
 
     #t_5_9.titulo-segundo

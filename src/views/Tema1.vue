@@ -56,7 +56,7 @@
               p Fácil acceso a las existencias: se trata de acceder directamente a la mercancía almacenada, de modo que la manutención sea mínima. Facilitar el acceso a las existencias reduce los tiempos de entrada y salida, así como los de preparación de pedidos, y evita accidentes que pueden afectar a las personas y las mercancías. Como resultado de ello, aumenta la productividad global en el almacén.
 
     p.mb-4 Todo lo anterior, sumado a un buen diseño del layout del almacén debe favorecer la distribución de materiales y productos para poder localizar y obtener lo que se necesite de la forma más eficiente. Un almacén debe contar con un diseño en el que se proyecten el número de plantas, instalaciones principales, acceso a servicios, salidas de seguridad, entradas y salidas, entre otros elementos.
-    .separador
+    .separador-custom
 
 
     #t_1_1.titulo-segundo
@@ -98,7 +98,7 @@
                   li.mb-2 #[span.li--clr.fa-lo #[i.fas.fa-chevron-right]] Deterioro o daños de los productos por su manipulación.
                   li.mb-2 #[span.li--clr.fa-lo #[i.fas.fa-chevron-right]] Robos, plagas y pérdidas.
 
-    .separador
+    .separador-custom
 
     #t_1_2.titulo-segundo
       .h2 1.2 Evolución de los almacenes
@@ -153,7 +153,7 @@
         figure
           img(src='@/assets/curso/tema1/img7.svg', alt='Estante')
 
-    .separador
+    .separador-custom
 
 
 
@@ -164,6 +164,8 @@
     p.mb-5 La mejor manera de clasificar los distintos tipos de bodegas que se pueden dar en la actualidad es agrupándolas según sus características comunes:
 
     SlyderB.mb-5(:datos="datosSlyder")
+
+    .separador-custom
 
     #t_1_4.titulo-segundo
       .h2 1.4 Función de los almacenes
@@ -191,7 +193,7 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
-    .separador
+    .separador-custom
 
     #t_1_5.titulo-segundo
       .h2 1.5 Ubicación de los almacenes
@@ -239,7 +241,7 @@
         .col-md-9.mb-4.mb-md-0.align-self-center
           p La composición y disposición de la red necesaria para la comercialización de un artículo influirá en la localización, en el número y en el tipo de bodegas que se necesitarán para cubrirla.
 
-    .separador
+    .separador-custom
 
     #t_1_6.titulo-segundo
       .h2 1.6 Distribución física y layout

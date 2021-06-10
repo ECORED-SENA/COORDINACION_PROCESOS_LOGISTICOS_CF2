@@ -72,7 +72,7 @@
                 img(src='@/assets/curso/tema4/avt6.svg', alt='Auxiliar de almacén', style='width:124px;').mx-auto
             .col-lg-6.align-self-center.my-5
               p Estos puestos se encargan de las mercancías una vez recepcionadas y antes de ser expedidas: las transportan y ubican, las distribuyen, las recuentan, las clasifican, etc
-    .separador
+    .separador-custom
 
     #t_4_2.titulo-segundo
       .h2 4.2 Maquinaria y equipo según tipo y productos
@@ -80,7 +80,7 @@
     p.mb-4 En un almacén las manipulaciones de bienes almacenados son muchos, y por eso aumentan los riesgos, de daños, costos en el tiempo y mano de obra, por eso se hacen importantes los equipos de manejo entre otros tenemos:
 
     SlyderB.mb-5(:datos='datosSlyder')
-    .separador
+    .separador-custom
 
     #t_4_3.titulo-segundo
       .h2 4.3 Tecnologías de información y comunicación (TIC)
@@ -176,9 +176,9 @@
               .h4 SCE (Supply Chain Execution)
               p Es una tecnología que se enfoca a la optimización de movimiento de materiales entre el centro de distribución y los otros agentes de la cadena de suministro. Este sistema es la integración de otras herramientas de ejecución y visibilidad de la cadena de suministro, tales como: TMS (Transportación Management System), LMS y WMS, entre otros.
 
-    .separador
+   
 
-    #t_4_4.titulo-segundo
+    #t_4_4.titulo-segundo.mt-5
       .h2 4.4 Normatividad aplicada a la operación de almacenes
 
     p.mb-4 La normativa de seguridad es fundamental entendiendo que en la mayoría de los procesos operativos de los almacenes se cuenta con personal humano que a su vez es un desarrollador, por eso se deben mantener alejados y visibles, para eso se exponen unas normas en grupos así:
@@ -196,7 +196,7 @@
         .col-lg-12.mb-4
           p Se adoptan para ciertas operaciones que por su naturaleza se clasifican de alto riesgo; por ejemplo: permiso de entradas en áreas limitadas, vestuario adecuado para el desarrollo de determinadas labores. La prevención de riesgos se basa en el conocimiento de las causas que motivan accidentes, enfermedades, incidentes, etc., y casi siempre existen posibilidades a nuestro alcance para prevenirlos o atenuar los problemas que pueden ocasionar; de esta forma se pueden evitar las consecuencias negativas y conseguir un perfecto desarrollo de la vida laboral.
     
-    .separador
+    .separador-custom
 
     #t_4_5.titulo-segundo
       .h2 4.5 Factores de riesgo en un almacén

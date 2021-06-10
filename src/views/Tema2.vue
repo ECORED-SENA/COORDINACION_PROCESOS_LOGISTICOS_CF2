@@ -368,10 +368,9 @@
                           strong Mensajería internacional o courier   
                         li 
                           p Empresa que ofrece el servicio de llevar, de un lugar a otro, correspondencia, cartas o paquetes, entre otras cosas.
+    
 
-    .separador
-
-    #t_2_1.titulo-segundo
+    #t_2_1.titulo-segundo.mt-5
       .h2 2.1 Empaques y embalajes
 
     p.mb-4 Los productos llegan al mundo desnudos y se deben vestir para la ocasión, cada uno de los productos debe ser defendido de muchos factores que voluntaria o involuntariamente lo atacan cada momento además de mostrarlos de manera llamativa y es por eso que se debe plantear toda una logística desde el vestido del producto hasta saber si se envía solo o acompañado, por eso es fundamental conocer los siguientes conceptos.
@@ -704,7 +703,7 @@
         figure.mb-5
           img(src='@/assets/curso/tema2/img18.svg', alt='Mercado de cajas')
     
-    .separador
+    .separador-custom
 
     #t_2_2.titulo-segundo
       .h2 2.2 Unidad de carga o unitarización
