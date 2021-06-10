@@ -21,11 +21,12 @@
             li #[span.li--clr.fa-lo #[i.fas.fa-chevron-right]] Cross Docking.
 
     .titulo-quinto.color-acento-contenido
-      h4 Subprocesos de almacenamiento
+      h4.mb-5 Subprocesos de almacenamiento
+
     .row.justify-content-center.mb-5
-      .col-lg-8
+      .col-lg-12
         figure
-          img(src='@/assets/curso/tema5/img2.svg', alt='Subprocesos de almacenamiento', style='width:600px;')
+          img(src='@/assets/curso/tema5/img2.svg', alt='Subprocesos de almacenamiento', style='width:500px;').mx-auto
 
     .separador
 
@@ -217,16 +218,17 @@
     p.mb-4 Para facilitar el proceso de separación en la fuente es conveniente que los recipientes estén rotulados teniendo en cuenta los siguientes aspectos:
 
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-lg-12
         ol.fa-ol.lista-ol.lista-ol--separador
           li #[span.li--clr.fa-lo #[i.fas.fa-chevron-right]] Tipo de residuo a disponer y su listado correspondiente.
           li #[span.li--clr.fa-lo #[i.fas.fa-chevron-right]] Símbolo asociado, en caso de tener uno establecido.
           li #[span.li--clr.fa-lo #[i.fas.fa-chevron-right]] Los recipientes deben ser visibles y estar ubicados estratégicamente en las instalaciones de la organización.
           li #[span.li--clr.fa-lo #[i.fas.fa-chevron-right]] No se requiere de bolsas del mismo color, estas pueden ser reemplazadas por bolsas transparentes, lo importante es que se haga una adecuada recolección.
+          p
 
     .titulo-quinto.color-acento-contenido
-      h4 Código de colores para la separación de residuos
+      h4.mb-5 Código de colores para la separación de residuos
     
     figure(style='margin-bottom:90px;')
       img(src='@/assets/curso/tema5/img8.svg', alt=' Código de colores para la separación de residuos').mx-auto
@@ -326,7 +328,7 @@
     .h5 Tipos de inventarios
     p.mb-5 Hay inventarios de varios tipos de inventarios con relación a sus funciones, sus materiales y los productos, siempre todo va en función del producto a ser inventariado y el tiempo o espacio para hacerlo. A continuación, se detalla una primera clasificación en función de diferentes características:
 
-    .h3.text-center Tipos de inventarios
+    
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Según el momento")  

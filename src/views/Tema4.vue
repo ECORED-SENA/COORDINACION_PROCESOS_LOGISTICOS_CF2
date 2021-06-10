@@ -21,38 +21,56 @@
         //- estas clases tambien tienen un modificador --borde
         .tarjeta.color-custom.p-4(titulo='Responsable de almacén')
           .row
-            .col-12
+            .col-lg-2.align-self-center
+              figure
+                img(src='@/assets/curso/tema4/avt1.svg', alt='Responsable de almacén', style='width:124px;').mx-auto
+            .col-lg-6.align-self-center.my-5
               p Se encarga de la planificación y organización de las actividades que se llevan a cabo en el almacén y garantiza su correcta ejecución.
 
         .tarjeta.color-custom.p-4(titulo='Responsable de recepción')
           .row
-            .col-12
+            .col-lg-2.align-self-center
+              figure
+                img(src='@/assets/curso/tema4/avt2.svg', alt='Responsable de recepción', style='width:124px;').mx-auto
+            .col-lg-6.align-self-center.my-5
               p Su misión es la recepción, identificación y mantenimiento de las mercancías hasta que son trasladadas a la zona de almacenamiento estable.
 
         .tarjeta.color-custom.p-4(titulo='Responsable de almacenamiento')
           .row
-            .col-12
+            .col-lg-2.align-self-center
+              figure
+                img(src='@/assets/curso/tema4/avt3.svg', alt='Responsable de almacenamiento', style='width:124px;').mx-auto
+            .col-lg-6.align-self-center.my-5
               p Se encarga de ubicar las mercancías en las zonas adecuadas y garantiza que están en las mejores condiciones de conservación.
 
         .tarjeta.color-custom.p-4(
           titulo='Responsable de expedición (movimiento)'
         )
           .row
-            .col-12
+            .col-lg-2.align-self-center
+              figure
+                img(src='@/assets/curso/tema4/avt4.svg', alt='Responsable de expedición (movimiento)', style='width:124px;').mx-auto
+            .col-lg-6.align-self-center.my-5
               p Garantiza que los movimientos de mercancía internos (entre zonas del almacén) y externos (con clientes, otros centros de trabajo) se llevan a cabo siguiendo la normativa y los procedimientos pautados.
 
         .tarjeta.color-custom.p-4(
           titulo='Responsable de información y administración'
         )
           .row
-            .col-12
+            .col-lg-2.align-self-center
+              figure
+                img(src='@/assets/curso/tema4/avt5.svg', alt='Responsable de información y administración', style='width:124px;').mx-auto
+            .col-lg-6.align-self-center.my-5
               p Lleva a cabo los procesos administrativos del almacén y da respuesta a las necesidades de información.
 
         .tarjeta.color-custom.p-4(
           titulo='Auxiliar de almacén / repartidor / reponedor / carretillero'
         )
           .row
-            .col-12
+            .col-lg-2.align-self-center
+              figure
+                img(src='@/assets/curso/tema4/avt6.svg', alt='Auxiliar de almacén', style='width:124px;').mx-auto
+            .col-lg-6.align-self-center.my-5
               p Estos puestos se encargan de las mercancías una vez recepcionadas y antes de ser expedidas: las transportan y ubican, las distribuyen, las recuentan, las clasifican, etc
     .separador
 
@@ -84,7 +102,7 @@
           p
 
     p.mb-5 Mientras que algunas de sus desventajas son:
-    .row.justify-content-center.mb-4
+    .row.mb-4
       .col-lg-6
         ol.fa-ol.lista-ol.lista-ol--separador
           li #[span.li--clr.fa-lo #[i.fas.fa-chevron-right]] Proceso de implementación largo, costoso y complejo, además cuando es mal instalado puede causar estragos operacionales y económicos.

@@ -454,7 +454,7 @@
             
     .row.justify-content-center.mb-4
       .col-lg-4
-        a.anexo(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo(:href="obtenerLink('/downloads/otrosTiposEmbalaje.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
