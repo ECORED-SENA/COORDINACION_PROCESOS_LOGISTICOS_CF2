@@ -6,7 +6,7 @@
     .titulo-principal
       .titulo-principal__numero
         span 1
-      h1 Gestión de almacenes - Conceptos generales
+      h1 Gestión de almacenes - conceptos generales
 
 
     
@@ -19,9 +19,9 @@
       .col-lg-12.align-self-center
         .tarjeta-avatar-b
           img(src='@/assets/curso/tema1/num1.svg', alt='AvatarNum')
-          .tarjeta.transparent1
+          .tarjeta.transparent1(style="border-bottom: 1px solid #afafaf")
             .p-4
-              p El rastreo sirve para identificar el origen de un lote o unidad de carga concreta. Permite explorar las etapas que ha seguido el producto desde su transformación hasta llegar a la entrega final, por lo que se incluye la identificación de las materias primas utilizadas y las operaciones de producción llevadas a cabo.
+              p #[strong Maximizar el espacio:] el espacio de almacenamiento tiene un costo para la organización, normalmente elevado, por lo que hay que aprovecharlo al máximo. El objetivo es almacenar la mayor cantidad de mercancía en el mínimo espacio posible, buscando el equilibrio entre las necesidades del mercado, el tiempo de reposición del producto y la calidad del servicio. 
 
     .row.justify-content-center
       .col-lg-12.align-self-center
@@ -29,7 +29,7 @@
           img(src='@/assets/curso/tema1/num2.svg' alt='AvatarNum')
           .tarjeta.transparent2
             .p-4
-              p Maximizar el espacio: el espacio de almacenamiento tiene un costo para la organización, normalmente elevado, por lo que hay que aprovecharlo al máximo. El objetivo es almacenar la mayor cantidad de mercancía en el mínimo espacio posible, buscando el equilibrio entre las necesidades del mercado, el tiempo de reposición del producto y la calidad del servicio. 
+              p  #[strong Minimizar la manutención del producto:] se trata de reducir al máximo los movimientos de las mercancías, asegurando siempre la accesibilidad a las mismas. Al limitar los movimientos al mínimo se reduce la posibilidad de accidentes y el deterioro o las roturas de los productos.
 
     .row.justify-content-center
       .col-lg-12.align-self-center
@@ -37,7 +37,7 @@
           img(src='@/assets/curso/tema1/num3.svg' alt='AvatarNum')
           .tarjeta.transparent2
             .p-4
-              p Minimizar la manutención del producto: se trata de reducir al máximo los movimientos de las mercancías, asegurando siempre la accesibilidad a las mismas. Al limitar los movimientos al mínimo se reduce la posibilidad de accidentes y el deterioro o las roturas de los productos.
+              p #[strong Adecuación a la rotación de las existencias:] se ha de ajustar la cantidad de producto disponible a la demanda del mercado y a los tiempos de aprovisionamiento. De este modo, se reduce la cantidad de mercancía almacenada y la inversión económica necesaria, con el consiguiente ahorro financiero. La adecuación a la rotación de las existencias también requiere menor espacio de almacenamiento, reduce la cantidad de productos obsoletos o caducados y exige dedicar un menor tiempo a la manutención.
 
     .row.justify-content-center
       .col-lg-12.align-self-center
@@ -45,7 +45,7 @@
           img(src='@/assets/curso/tema1/num4.svg' alt='AvatarNum')
           .tarjeta.transparent2
             .p-4
-              p Adecuación a la rotación de las existencias: se ha de ajustar la cantidad de producto disponible a la demanda del mercado y a los tiempos de aprovisionamiento. De este modo, se reduce la cantidad de mercancía almacenada y la inversión económica necesaria, con el consiguiente ahorro financiero. La adecuación a la rotación de las existencias también requiere menor espacio de almacenamiento, reduce la cantidad de productos obsoletos o caducados y exige dedicar un menor tiempo a la manutención.
+              p #[strong Fácil acceso a las existencias:] se trata de acceder directamente a la mercancía almacenada, de modo que la manutención sea mínima. Facilitar el acceso a las existencias reduce los tiempos de entrada y salida, así como los de preparación de pedidos, y evita accidentes que pueden afectar a las personas y las mercancías. Como resultado de ello, aumenta la productividad global en el almacén.
 
     .row.justify-content-center
       .col-lg-12.align-self-center
@@ -53,7 +53,7 @@
           img(src='@/assets/curso/tema1/num5.svg' alt='AvatarNum')
           .tarjeta.transparent2
             .p-4
-              p Fácil acceso a las existencias: se trata de acceder directamente a la mercancía almacenada, de modo que la manutención sea mínima. Facilitar el acceso a las existencias reduce los tiempos de entrada y salida, así como los de preparación de pedidos, y evita accidentes que pueden afectar a las personas y las mercancías. Como resultado de ello, aumenta la productividad global en el almacén.
+              p #[strong Flexibilidad de la ubicación:] se han de evitar las ubicaciones vacías para evitar incurrir en un costo innecesario. Al reducir las ubicaciones vacías, se consigue aprovechar mejor el espacio, a la vez que se reducen los tiempos de desplazamiento.
 
     p.mb-4 Todo lo anterior, sumado a un buen diseño del layout del almacén debe favorecer la distribución de materiales y productos para poder localizar y obtener lo que se necesite de la forma más eficiente. Un almacén debe contar con un diseño en el que se proyecten el número de plantas, instalaciones principales, acceso a servicios, salidas de seguridad, entradas y salidas, entre otros elementos.
     .separador-custom
@@ -140,7 +140,7 @@
             figure(style="text-align: -webkit-center;")
               img(src='@/assets/curso/tema1/img6.svg', alt='Mecanización', style="width:250px; text-align: -webkit-center;")
           .col-md-9.mb-4.mb-md-0.align-self-center
-            p Llega el equipo mecánico, incluyendo la implementación de cintas transportadoras y métodos para sujetar automáticamente las cargas a los pallets. Cada uno de estos métodos produjo un aumento en la eficiencia de los almacenes; generalmente, los almacenes más eficientes son los que logran albergar la mayor cantidad de producto por metro de cuadrado de espacio disponible, con esto se reducen costos como los de calefacción, mantenimiento y administración.
+            p Llega el equipo mecánico, incluyendo la implementación de cintas transportadoras y métodos para sujetar automáticamente las cargas a los pallets. Cada uno de estos métodos produjo un aumento en la eficiencia de los almacenes; generalmente, los almacenes más eficientes son los que logran albergar la mayor cantidad de producto por metro cuadrado de espacio disponible, con esto se reducen costos como los de calefacción, mantenimiento y administración.
         
 
     p.mb-5 La evolución es buena pero cada sistema tiene sus cosas a tener en cuenta, por ejemplo, las pilas simples presentan dificultad porque al producirse el mayor peso sobre las existencias ubicadas en la parte más baja, puede dañar esa parte y no es fácil llegar a esas cajas sin bajar las que están sobre ella; para que lo entienda mejor, imagínese una pila de monedas en la que haya por lo menos 10 monedas una sobre otra y usted quiere quitar la de abajo sin que se caigan las otras. En este modelo también se debe tener en cuenta que la altura de cada pila tiene un límite que por lo general es de hasta 7 metros, de esta manera se puede mantener un sistema que no tenga tanto riesgo de caída por inestabilidad, por estas razones, la mayoría de las empresas comerciales invierten en algún tipo de sistemas de estanterías que reduzca el riesgo.
@@ -200,9 +200,9 @@
 
     p.mb-4 Determinar la ubicación de un almacén es uno de los aspectos primordiales que hay que considerar antes de su instalación. La localización de la bodega es un factor que influye no sólo en el aspecto constructivo, sino, sobre todo, en el estratégico, y puede ser decisivo en el éxito o el fracaso del negocio; para Pérez (2017), “el estudio de la ubicación de un almacén deberá realizarse mediante el examen de cuatro factores básicos: la producción, los costos, la demanda y la competencia” (párr.2), todos estos aspectos se relacionan entre sí y por separado como se evidencia en el siguiente gráfico:
 
-    figure.mb-4
-          img.mb-2(src='@/assets/curso/tema1/img14.svg', alt='Ubicacion de los almacenes')
-          
+    figure.mb-4 
+      img.mb-2(src='@/assets/curso/tema1/img14.svg', alt='Ubicacion de los almacenes')
+
     p.mb-4 En una correcta distribución y comercialización de los productos con relación a la ubicación se deben tener en cuenta el análisis de los siguientes parámetros:
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")

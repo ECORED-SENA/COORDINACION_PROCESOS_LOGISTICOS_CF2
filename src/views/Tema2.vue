@@ -202,7 +202,7 @@
                       i.fas.fa-chevron-right
                       strong Mercancías refrigeradas
                     li 
-                      p Se enfrían por encima de la temperatura óptima del transporte o almacenamiento, siempre por encima del punto de congelación (1 – 8°C) Por ejemplo, verduras, productos lácteos, mantequilla, flores, etc.
+                      p Se enfrían por encima de la temperatura óptima del transporte o almacenamiento, siempre por encima del punto de congelación (1 – 8°C) por ejemplo, verduras, productos lácteos, mantequilla, flores, etc.
                     li 
                       i.fas.fa-chevron-right
                       strong Mercancías congeladas y ultracongeladas
@@ -234,7 +234,7 @@
                       style='max-width: 450px'
                     )
                   ul.lista-ul
-                    li 
+                    //li 
                       i.fas.fa-chevron-right
                       strong Carga perecedera
                     li 
@@ -249,7 +249,7 @@
                           i.fas.fa-chevron-right
                           strong Temperatura ambiente
                         li 
-                          p Se manejan bajo condiciones de temperatura sin ningún tipo de alteración. Por ejemplo, Aceites, granos, cereales, aseo personal, cosméticos, vestuario, etc.
+                          p Se manejan bajo condiciones de temperatura sin ningún tipo de alteración. Por ejemplo, aceites, granos, cereales, aseo personal, cosméticos, vestuario, etc.
 
     .row.justify-content-center
       .col-lg-12.align-self-center
@@ -473,21 +473,17 @@
           tr
             th.h3 Contener
             td 
-              |Separa el producto del entorno 
+              |Separa el producto del entorno.
               br
               br
-              |Fija el producto a un volumen determinado 
+              |Fija el producto a un volumen determinado.
               br
               br
-              |Contiene cualquier estado de la materia del producto, sólido, líquido o gaseoso
+              |Contiene cualquier estado de la materia del producto, sólido, líquido o gaseoso.
 
             
           tr
             th.h3 Proteger
-            td Conseguir la máxima competitividad en el mercado y optimizar los beneficios.
-            
-          tr
-            th.h3 Empresas involucradas
             td 
               | Aísla el producto de su entorno para garantizar sus propiedades, como son los riesgos físicos, mecánicos y las influencias del medio ambiente como lluvia, gases, vapor de agua y olores.
               br
@@ -602,11 +598,11 @@
       table
         thead
           tr.text-center
-            th.h4(style='width: 20%; background-color: rgb(236 242 255);') Material 
-            th.h4(style='width: 20%; background-color: rgb(236 242 255);') Presentación 
-            th.h4(style='width: 20%; background-color: rgb(236 242 255);') Ejemplo
-            th.h4(style='width: 20%; background-color: rgb(236 242 255);') Ventajas 
-            th.h4(style='width: 20%; background-color: rgb(236 242 255);') Desventajas
+            th.h4(style='width: 20%; background-color: #57DBD8;') Material 
+            th.h4(style='width: 20%; background-color: #57DBD8;') Presentación 
+            th.h4(style='width: 20%; background-color: #57DBD8;') Ejemplo
+            th.h4(style='width: 20%; background-color: #57DBD8;') Ventajas 
+            th.h4(style='width: 20%; background-color: #57DBD8;') Desventajas
         tbody
           //caption Leyenda de la tabla
           tr.tabla-custom
@@ -683,7 +679,7 @@
           .tarjeta.tarjeta--azul
             .p-4
               .h4 Marcas informativas
-              p Es la información adicional que aparece en el empaque o embalaje. Ej : País de origen, puerto de salida, puerto de entrada, peso bruto, peso neto, dimensiones de la caja.
+              p Es la información adicional que aparece en el empaque o embalaje. Ej. país de origen, puerto de salida, puerto de entrada, peso bruto, peso neto, dimensiones de la caja.
 
 
 
@@ -712,7 +708,7 @@
 
     .h3.mb-4 Cualidades de las unidades de carga
     
-    p.mb-4 Conviene precisar que la configuración y las características físicas de los elementos que componen la unidad de carga han de conseguir dotarla de dos cualidades fundamentales.
+    p.mb-4 Conviene precisar que la configuración y las características físicas de los elementos que componen la unidad de carga han de conseguir dotarla de dos cualidades fundamentales:
 
     .row.justify-content-center
       .col-lg-10

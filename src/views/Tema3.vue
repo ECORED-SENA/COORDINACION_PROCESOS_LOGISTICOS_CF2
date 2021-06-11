@@ -30,7 +30,7 @@
           .arrow-crd__header
             p 3
           .arrow-crd__body
-            p Almacenamiento respecto al grado de protección
+            p Almacenamiento según la función logística
       .col.mb-4(style="padding:4px;")
         .arrow-crd.arrow-crd_oddCl
           .arrow-crd__header--azul
@@ -210,7 +210,7 @@
                 .col-lg-6
                   ol.fa-ol.lista-ol.lista-ol--separador
                     li #[span.li--clr.fa-lo #[i.fas.fa-chevron-right]] 
-                      p.mb-1 #[strong Zona de despacho ] <br> Lugar se lleva a cabo la expedición y revisión final de las<br> mercancías
+                      p.mb-1 #[strong Zona de despacho ] <br> Lugar donde se lleva a cabo la expedición y revisión final de las<br> mercancías
                     
                     li #[span.li--clr.fa-lo #[i.fas.fa-chevron-right]] 
                       p.mb-1 #[strong Zona de maniobras ] <br> Sitio donde transitan tanto maquinarias como personas.
@@ -224,7 +224,7 @@
       .col-lg-12.align-self-center
         .tarjeta-avatar-b
           img(
-            src='@/assets/curso/tema2/num6.svg',
+            src='@/assets/curso/tema2/num7.svg',
             alt='AvatarNum',
             style='align-self: flex-start; margin-top: 25px'
           )

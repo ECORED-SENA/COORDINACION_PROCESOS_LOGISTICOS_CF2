@@ -12,7 +12,7 @@
     #t_4_1.titulo-segundo
       .h2 4.1 Talento humano
 
-    p.mb-4 La mayor parte de las empresas o industrias de gran o mediano tamaño realizan una actividad de almacenaje, pero cada empresa es distinta por lo que no hay uniformidad en el lugar en el que están ubicados los puestos relacionados con el almacenamiento en la organización de la empresa. Las funciones de cada puesto varían en función de las empresas; a pesar de esto hay determinados “puestos tipo” en el almacén que normalmente cuentan con unas funciones básicas comunes como se muestra a continuación:
+    p.mb-4 La mayor parte de las empresas o industrias de tamaño grande o mediano realizan una actividad de almacenaje, pero cada empresa es distinta por lo que no hay uniformidad en el lugar en el que están ubicados los puestos relacionados con el almacenamiento en la organización de la empresa. Las funciones de cada puesto varían en función de las empresas; a pesar de esto hay determinados “puestos tipo” en el almacén que normalmente cuentan con unas funciones básicas comunes como se muestra a continuación:
 
     .row.justify-content-center.mb-4
       TabsA.color-acento-contenido.mb-0
@@ -25,6 +25,7 @@
               figure
                 img(src='@/assets/curso/tema4/avt1.svg', alt='Responsable de almacén', style='width:124px;').mx-auto
             .col-lg-6.align-self-center.my-5
+              .h4 Responsable de almacén
               p Se encarga de la planificación y organización de las actividades que se llevan a cabo en el almacén y garantiza su correcta ejecución.
 
         .tarjeta.color-custom.p-4(titulo='Responsable de recepción')
@@ -33,6 +34,7 @@
               figure
                 img(src='@/assets/curso/tema4/avt2.svg', alt='Responsable de recepción', style='width:124px;').mx-auto
             .col-lg-6.align-self-center.my-5
+              .h4 Responsable de recepción
               p Su misión es la recepción, identificación y mantenimiento de las mercancías hasta que son trasladadas a la zona de almacenamiento estable.
 
         .tarjeta.color-custom.p-4(titulo='Responsable de almacenamiento')
@@ -41,6 +43,7 @@
               figure
                 img(src='@/assets/curso/tema4/avt3.svg', alt='Responsable de almacenamiento', style='width:124px;').mx-auto
             .col-lg-6.align-self-center.my-5
+              .h4 Responsable de almacenamiento
               p Se encarga de ubicar las mercancías en las zonas adecuadas y garantiza que están en las mejores condiciones de conservación.
 
         .tarjeta.color-custom.p-4(
@@ -51,6 +54,7 @@
               figure
                 img(src='@/assets/curso/tema4/avt4.svg', alt='Responsable de expedición (movimiento)', style='width:124px;').mx-auto
             .col-lg-6.align-self-center.my-5
+              .h4 Responsable de expedición (movimiento)
               p Garantiza que los movimientos de mercancía internos (entre zonas del almacén) y externos (con clientes, otros centros de trabajo) se llevan a cabo siguiendo la normativa y los procedimientos pautados.
 
         .tarjeta.color-custom.p-4(
@@ -61,6 +65,7 @@
               figure
                 img(src='@/assets/curso/tema4/avt5.svg', alt='Responsable de información y administración', style='width:124px;').mx-auto
             .col-lg-6.align-self-center.my-5
+              .h4 Responsable de información y administración
               p Lleva a cabo los procesos administrativos del almacén y da respuesta a las necesidades de información.
 
         .tarjeta.color-custom.p-4(
@@ -70,7 +75,8 @@
             .col-lg-2.align-self-center
               figure
                 img(src='@/assets/curso/tema4/avt6.svg', alt='Auxiliar de almacén', style='width:124px;').mx-auto
-            .col-lg-6.align-self-center.my-5
+            .col-lg-7.align-self-center.my-5
+              .h4 Auxiliar de almacén / repartidor / reponedor / carretillero
               p Estos puestos se encargan de las mercancías una vez recepcionadas y antes de ser expedidas: las transportan y ubican, las distribuyen, las recuentan, las clasifican, etc
     .separador-custom
 
@@ -176,7 +182,7 @@
               .h4 SCE (Supply Chain Execution)
               p Es una tecnología que se enfoca a la optimización de movimiento de materiales entre el centro de distribución y los otros agentes de la cadena de suministro. Este sistema es la integración de otras herramientas de ejecución y visibilidad de la cadena de suministro, tales como: TMS (Transportación Management System), LMS y WMS, entre otros.
 
-   
+
 
     #t_4_4.titulo-segundo.mt-5
       .h2 4.4 Normatividad aplicada a la operación de almacenes
@@ -201,7 +207,7 @@
     #t_4_5.titulo-segundo
       .h2 4.5 Factores de riesgo en un almacén
     
-    p.mb-4 Las actividades del almacén, generalmente, se realizan en unas condiciones especiales de temperatura, iluminación, humedad, ventilación y ruido; producidas por máquinas, herramientas, vehículos, etc. El trabajo que se realiza dentro del almacén también supone mover constantemente cargas pesadas, apilar en el suelo o estanterías volúmenes considerables de mercancías y coordinar el desplazamiento de los medios o vehículos de transporte interno con el tránsito de las personas, que a veces tiene lugar en los mismos pasillos o zonas de acceso.
+    p.mb-4 Las actividades del almacén, generalmente, se realizan en unas condiciones especiales de temperatura, iluminación, humedad, ventilación y ruido; producidas por máquinas, herramientas, vehículos, etc. El trabajo que se realiza dentro del almacén también supone mover constantemente cargas pesadas, apilar en el suelo o estanterías volúmenes considerables de mercancías y coordinar el desplazamiento de los medios o en vehículos de transporte interno con el tránsito de las personas, que a veces tiene lugar en los mismos pasillos o zonas de acceso.
     p.mb-4 Los siguientes son factores que dependiendo de su manejo representan riesgos para el trabajador:
     
     .row.justify-content-center.mb-4
@@ -227,7 +233,7 @@ export default {
       {
         titulo: 'Sistemas de transporte por rodillos',
         texto:
-          ' Son bandas de transporte a base de rodillos articulados que llevan la carga en una dirección uniforme a velocidad constante',
+          ' Son bandas de transporte a base de rodillos articulados que llevan la carga en una dirección uniforme a velocidad constante.',
         imagen: require('@/assets/curso/tema4/img1.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },

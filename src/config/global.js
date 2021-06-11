@@ -197,22 +197,22 @@ export default {
       },
     ],
     subMenu: [
-      {
+      /*{
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
         titulo: 'Actividad didáctica',
         desarrolloContenidos: true,
-      },
+      },*/
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
-      },
+      } /*
       {
         nombreRuta: 'complementario',
         icono: 'far fa-folder-open',
         titulo: 'Material complementario',
-      },
+      },*/,
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -243,48 +243,26 @@ export default {
         regional: 'Regional Santander',
       },
       {
-        nombre: 'Astrid Lili Puerta',
-        cargo: 'Experta temática',
-        centro: 'Centro Agropecuario de Buga',
-        regional: 'Regional valle',
+        nombre: 'Rafael Rodríguez Cuellar',
+        cargo: 'Instructor - Experto temático',
+        centro: 'Centro de la Industria, la Empresa y los Servicios',
+        regional: 'Regional Huila',
       },
       {
-        nombre: 'Javier Enrique Santana',
-        cargo: 'Experto temático',
-        centro: 'Centro de Gestión Industrial',
-        regional: 'Regional Distrito Capital',
-      },
-      {
-        nombre: 'Michael Andrés Cortés Caro',
-        cargo: 'Experto temático',
-        centro: 'Ministerio de Ambiente y Desarrollo Sostenible',
-      },
-      {
-        nombre: 'Mauricio Jiménez Fajardo',
-        cargo: 'Experto temático',
-        centro: 'Ministerio de Ambiente y Desarrollo Sostenible',
-      },
-      {
-        nombre: 'Manuel Alejandro Garzón Cárdenas',
-        cargo: 'Experto temático',
-        centro: 'Deutsche Gesellschaft für',
-        regional: 'Internationale Zusammenarbeit (GIZ)',
-      },
-      {
-        nombre: 'Liliana Victoria Morales Gualdrón',
+        nombre: 'Luis Fernando Botero Mendoza',
         cargo: 'Diseñador instruccional',
-        centro: 'Centro para la Industria y la Comunicación Gráfica',
+        centro: 'Centro para la Industria de la Comunicación Gráfica',
         regional: 'Regional Distrito Capital',
       },
       {
-        nombre: 'Carlos Andrés Rodríguez',
-        cargo: 'Evaluador instruccional',
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Revisor metodológico y pedagógico',
         centro: 'Centro de Diseño y Metrología',
         regional: 'Regional Distrito Capital',
       },
       {
-        nombre: 'Julieth Paola Vital López',
-        cargo: 'Revisora de estilo',
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Corrección de estilo',
         centro: 'Centro para la Industria de la Comunicación Gráfica',
         regional: 'Regional Distrito Capital',
       },
@@ -303,23 +281,37 @@ export default {
         regional: 'Regional Santander',
       },
       {
-        nombre: ['Adriana Rincón Avendaño', 'Eulises Orduz Amezquita'],
-        cargo: 'Diseño web y Producción Audiovisual',
+        nombre: [
+          'Zuleidy Maria Ruiz Torres',
+          'Wilson Andres Arenales Caceres',
+          'Gilberto Junior Rodriguez Rodriguez',
+          'Lina Marcela Perez',
+          'Víctor Cardenas',
+          'Ricardo Vasquez Arrovaye',
+          'Oleg Litvin',
+        ],
+        cargo: 'Producción audiovisual',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
       {
-        nombre: 'Edward Leonardo Pico Cabra',
+        nombre: 'John Andres Ayala Angarita',
         cargo: 'Desarrollo Front-End',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
+      },
+      {
+        nombre: 'hana Johanna Bustillo Ardila',
+        cargo: 'Validación de diseño y contenido',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Brayan Stiven Pinto Diaz',
-        cargo: ['Desarrollo front-end', 'Validación de recursos'],
-        centro: 'Centro de comercio y servicios',
+        nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios',
         regional: 'Regional Tolima',
       },
     ],
@@ -327,106 +319,125 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Campo V., A.; Hervás E., A. & Revilla R., M. (2013). Operaciones de Almacenaje. Madrid: McGraw-Hill.',
+    },
+    {
+      referencia:
+        'Castellanos R., A. (2015). Logística Comercial Internacional. Barranquilla: Ecoe Ediciones.',
+    },
+    {
+      referencia:
+        'Fernández S., F. (2016). Estiba y trincaje de mercancias en contenedor. Barcelona: Alfaomega.',
+    },
+    {
+      referencia:
+        'Flamarique, S. (2019). Manual de gestión de almacenes. Barcelona: Marge Books.',
+    },
+    {
+      referencia:
+        'Garavito, E. (2008). Sistemas de almacenamiento. Escuela de Estudios Industriales y Empresariales , 1 - 2.',
+    },
+    {
+      referencia:
+        'Mira, J. & Soler, D. (2010). Manual de transporte de mercancías. Barcelona: Marge Books. Organización Internacional de Normalización - ISO. (2020).',
+      link: 'https://www.iso.org/obp/ui/es/#iso:std:iso:9000:ed-4:v1:es',
+    },
+    {
+      referencia:
+        'Pérez H., M. (2017). Almacenamiento de materiales. Barcelona: Marge Books.',
+    },
+    {
+      referencia:
+        'Revista de logistica legis. (2016). Tipos de almacenamiento. Revista de logistica legis.',
+    },
+    {
+      referencia:
+        'Revista Stock Logistic. (2019). La automatización en el sector logístico.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.stocklogistic.com/la-automatizacion-en-el-sector-logistico/',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
-    },
-    {
-      referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Riveros P., G. (2015). Marketing Logístico. Bogotá: Ecoe Ediciones.',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Almacén',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'es un lugar o espacio físico para el almacenaje de bienes dentro de la cadena de suministro. Los almacenes son una infraestructura imprescindible para la actividad de todo tipo de agentes económicos (agricultores, ganaderos, mineros, industriales, transportistas, importadores, exportadores, comerciantes, intermediarios, consumidores finales, etc.)',
     },
     {
-      termino: 'Suftware',
+      termino: 'Apiladores',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'son herramienta de ayuda en cualquier empresa que son muy eficaces para elevar, bajar y transportar cargas.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Canal de distribución',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'es el conducto que define la compañía por el cual se movilizan los productos desde el lugar donde se producen hasta los consumidores finales.',
     },
     {
-      termino: 'Áectores',
+      termino: 'Distribución',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'en logística se define este proceso como la acción de poner a disposición los productos para su consumo, en la cantidad demandada, el momento en que lo necesite y en el lugar acordado.',
     },
     {
-      termino: 'Moda',
+      termino: 'Embalajes',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'prepara la carga en la forma más adecuada para su transporte en los modos elegidos para su despacho al exterior y para las distintas operaciones a que se someta durante el viaje entre el Exportador y el importador.',
     },
     {
-      termino: 'Diseño',
+      termino: 'Ergonomía',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'es la disciplina tecnológica que trata del diseño de lugares de trabajo, herramientas y tareas que coinciden con las características fisiológicas, anatómicas, psicológicas y las capacidades del trabajador. Busca la optimización de los tres elementos del sistema (humano-máquina-ambiente), para lo cual elabora métodos de estudio de la persona, de la técnica y de la organización.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Etiquetado',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'el etiquetado garantiza a los consumidores la información completa sobre el contenido y la composición de un producto, a fin de proteger su salud y sus intereses. La etiqueta puede contener también información relativa a una característica determinada, como el origen del producto o el método de producción. Algunos alimentos son, además, objeto de una normativa específica, como los organismos modificados genéticamente, los alimentos alergénicos, los alimentos para bebés o determinadas bebidas.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Gestión logística',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'es el proceso de planificación, implementación y control del flujo y almacenamiento eficiente y económico de la materia prima, productos semi - terminados y acabados, así como la información asociada.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Just in time',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'entrega de insumos desde el proveedor directamente a los procesos productivos en el preciso momento preciso en que se los necesitan, obviando almacenamiento en planta.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Packing',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'es el proceso de alistamiento y preparación de la carga referente a empaque y embalaje necesario para la expedición.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Picking',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'es el proceso de recogida de material extrayendo unidades o conjuntos empaquetados de una unidad de empaquetado superior que contiene más unidades que las extraídas.',
     },
-  ],
+    {
+      termino: 'Plataforma logística',
+      significado:
+        'áreas o zonas con una infraestructura que permiten realizar las actividades inherentes a la logística, el transporte y la distribución de mercancías.',
+    },
+    {
+      termino: 'Señalización',
+      significado:
+        'es el lenguaje de comunicación destinado a transmitir al usuario de la vía las advertencias, prohibiciones, obligaciones, informaciones, orientaciones y fundamentalmente las prioridades de paso, de acceso y de uso de las distintas partes de la vía.',
+    },
+    {
+      termino: 'Transpaleta',
+      significado:
+        'es un aparato utilizado en almacenes para realizar diversas tareas relacionadas con la mercancía almacenada, tales como carga, descarga, traslado de una zona a otras del almacén y operaciones de picking.',
+    },
+    {
+      termino: 'Tratado de Libre Comercio (TLC)',
+      significado:
+        'acuerdo entre dos o más países después de varias negociaciones, que permite que el mercado nacional ofrezca bienes y/o servicios en el exterior.',
+    },
+  ] /*
   complementario: [
     {
       texto:
@@ -456,5 +467,5 @@ export default {
       tipo: 'Video',
       link: 'https://www.google.com/',
     },
-  ],
+  ],*/,
 }

@@ -17,7 +17,7 @@
         ol.fa-ol.lista-ol.lista-ol--separador
             li #[span.li--clr.fa-lo #[i.fas.fa-chevron-right]] Producción
             li #[span.li--clr.fa-lo #[i.fas.fa-chevron-right]] Recepción y almacenamiento.
-            li #[span.li--clr.fa-lo #[i.fas.fa-chevron-right]] Separación alistamiento y despacho.
+            li #[span.li--clr.fa-lo #[i.fas.fa-chevron-right]] Separación, alistamiento y despacho.
             li #[span.li--clr.fa-lo #[i.fas.fa-chevron-right]] Cross Docking.
 
     .titulo-quinto.color-acento-contenido
@@ -42,14 +42,14 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         figure
-          img(src='@/assets/curso/tema5/img3.svg', alt='Subprocesos de almacenamiento')
+          img(src='@/assets/curso/tema5/img3.svg', alt='Componentes de la logística interna')
 
     .separador-custom
 
     #t_5_2.titulo-segundo
       .h2 5.2 Recibo y almacenamiento
 
-    p.mb-5 En muchas industrias la llegada de la mercancía es la parte básica de en la gestión de almacenes, este recibo debe ser supervisado y cargado por fases conforme se muestra a continuación. Para la realización de la recepción y el ingreso a bodega de los productos se requiere una logística y materiales claves que deben tener una forma especial en búsqueda del cumplimiento del objetivo de ingreso con rapidez y orden; estos son los detalles que puede destacar dentro de este trabajo.
+    p.mb-5 En muchas industrias la llegada de la mercancía es la parte básica en la gestión de almacenes, este recibo debe ser supervisado y cargado por fases conforme se muestra a continuación. Para la realización de la recepción y el ingreso a bodega de los productos se requiere una logística y materiales claves que deben tener una forma especial en búsqueda del cumplimiento del objetivo de ingreso con rapidez y orden; estos son los detalles que puede destacar dentro de este trabajo.
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Muelles")
@@ -59,7 +59,7 @@
 
         .row.justify-content-center
           .col-lg-12.mb-4
-            h4.text-center.mb-4 Recepción e ingreso de muelles
+            h4.text-center.mb-4 Recepción e ingreso en los muelles
             figure.mb-4
               img(src='@/assets/curso/tema5/img4.svg', alt='Recepción e ingreso de muelles')
         
@@ -101,7 +101,7 @@
           .row.justify-content-center
             .col-lg-11
               p.mb-4 El almacenamiento está condicionado tridimensionalmente. Su unidad de medida son los metros cúbicos (m³), ya que es la única unidad de medida que expresa magnitud en la bodega.
-              p.mb-0 El espacio de bodega destinado a los bienes en custodia tiene dos utilizaciones: Espacio para bienes depositados y área de circulación. Lo ideal es maximizar el espacio para depositar los bienes y minimizar las áreas de circulación, sin ningún perjuicio de la agilidad y seguridad.
+              p.mb-0 El espacio de bodega destinado a los bienes en custodia tiene dos utilizaciones: espacio para bienes depositados y área de circulación. Lo ideal es maximizar el espacio para depositar los bienes y minimizar las áreas de circulación, sin ningún perjuicio de la agilidad y seguridad.
 
       .row(titulo="Preparación de pedidos o picking")
           .row.justify-content-center
@@ -119,7 +119,7 @@
     #t_5_4.titulo-segundo
       .h2 5.4 Cubicaje
 
-    p.mb-4 Se refiere a la acción de acomodar las mercancías en un soporte de manipulación (pallets) o medio de transporte (camión, contenedor) Cubicar y usar mejor su volumen, es el aprovechamiento máximo de espacios a llenar por una carga y/o mercancía, igualmente define los pesos brutos, jugando con los dimensiones internas y externas de estos espacios para trabajar con tranquilidad las resistencias dinámicas y estáticas de embalajes, contenedores, pallets o tarimas, lo mismo que anaqueles o estanterías.
+    p.mb-4 Se refiere a la acción de acomodar las mercancías en un soporte de manipulación (pallets) o medio de transporte (camión, contenedor). Cubicar y usar mejor su volumen, es el aprovechamiento máximo de espacios a llenar por una carga y/o mercancía, igualmente define los pesos brutos, jugando con las dimensiones internas y externas de estos espacios para trabajar con tranquilidad las resistencias dinámicas y estáticas de embalajes, contenedores, pallets o tarimas, lo mismo que anaqueles o estanterías.
 
     .titulo-quinto.color-acento-contenido
       h4 Cubicaje y volumetría
@@ -135,8 +135,8 @@
       .col-lg-10
         .cajon.color-acento-contenido.p-4.mb-4
           p.mb-4 Es  decir:
-          p #[strong FE:volumen  ]   (Largo x Ancho x Alto(m3))  
-          p.mb-5 #[strong Peso  ]  (Peso de la carga + peso del empaque + peso dela estiba)
+          p #[strong FE: #[u Volumen]] (Largo x Ancho x Alto(m3))  
+          p.mb-5 #[strong Peso  ]  (Peso de la carga + peso del empaque + peso de la estiba)
           p El resultado será expresado en Ton/m3 - Tonelada metro cúbico
 
     .separador-custom
@@ -302,16 +302,16 @@
         .row
           .col-md-7.mb-5.mb-md-0.mt-5.p-5
             p.mb-4 La noción popular de robot hace referencia a un dispositivo humanoide con cierto grado de inteligencia, que substituye a las personas en la realización de tareas útiles. Para los temas de almacenamiento se puede definir como:
-            p.mb-4 Apoyo funcional reprogramable, con capacidad mover material o cargas en diferentes formas de manera única o repetitiva que ayuda con una tarea específica.
+            p.mb-4 Apoyo funcional reprogramable, con capacidad para mover material o cargas en diferentes formas de manera única o repetitiva que ayuda con una tarea específica.
             p En los procesos logísticos, su campo de acción es ilimitado, se realiza desde operaciones de ensamble hasta procesos de estibado picking, control de calidad, transporte de piezas, etc. El funcionamiento de un robot depende del computador mediante un lenguaje de programación adecuado, se precisan los movimientos de las acciones a ejecutar, así como el procesamiento de nuevas acciones, y sus principales características son:
 
             .row.justify-content-center
               .col-lg-11
                 ol.fa-ol.lista-ol.lista-ol--separador
                   li #[span.li--clr.fa-lo #[i.fas.fa-chevron-right]]
-                    p #[strong Multifuncionalidad: ] Versatilidad para llevar a cabo distintas tareas, incluso aquéllas no previstas en principio por los diseñadores, lo cual implica una considerable auto-adaptabilidad al entorno.
+                    p #[strong Multifuncionalidad: ] versatilidad para llevar a cabo distintas tareas, incluso aquéllas no previstas en principio por los diseñadores, lo cual implica una considerable auto-adaptabilidad al entorno.
                   li #[span.li--clr.fa-lo #[i.fas.fa-chevron-right]]
-                    p #[strong Programabilidad: ] Capacidad para modificar la tarea mediante el cambio de programa, que propicia su adaptación rápida y económica a diferentes aplicaciones.
+                    p #[strong Programabilidad: ] capacidad para modificar la tarea mediante el cambio de programa, que propicia su adaptación rápida y económica a diferentes aplicaciones.
 
           .col-md-5.mt-5.mb-5.align-self-center
             figure
@@ -321,7 +321,7 @@
 
 
     #t_5_9.titulo-segundo
-      .h2 5.9 Normatividad aplicada a la operación de almacenes
+      .h2 5.9 Gestión de inventarios
 
     p.mb-4 El manejo de materiales puede llegar a ser el problema más importante de la producción, el agregar poco valor al producto y consumir una parte del presupuesto de manufactura. Cada operación del proceso requiere materiales y suministros, a tiempo, en un punto particular. Con el eficaz manejo de materiales se asegura que serán entregados en el momento y lugar adecuados.
     p.mb-4 #[strong El inventario] es el resultado del recuento físico, real, de las existencias en un almacén. Es una cantidad exacta, real en un momento dado. La actividad diaria de las empresas y las organizaciones conlleva movimientos de entrada y salida de mercancías que hacen variar la cantidad de existencias en los almacenes. Otro factor a tener en cuenta en la variación de las existencias es su tipología o naturaleza. Algunas de sus características pueden hacer variar su estatus dentro del almacén. Esto sucede, por ejemplo, con los productos perecederos, con fecha de caducidad, fecha de consumo preferente, o los obsoletos.
@@ -354,7 +354,7 @@
         .col-md-6.mb-4.mb-md-0
           ol.fa-ol.lista-ol.lista-ol--separador
             li #[span.li--clr.fa-lo #[i.fas.fa-chevron-right]]
-              p #[strong Inventario intermitente: ] es un inventario que se efectúa varias veces al año. Se recurre al, por razones diversas, no se puede introducir en la contabilidad del inventario contable permanente, al que se trata de suplir en parte.
+              p #[strong Inventario intermitente: ] es un inventario que se efectúa varias veces al año. Se recurre a el por razones diversas, no se puede introducir en la contabilidad del inventario contable permanente, al que se trata de suplir en parte.
             li #[span.li--clr.fa-lo #[i.fas.fa-chevron-right]]
               p #[strong Inventario perpetuo: ] es el que se lleva en continuo acuerdo con las existencias en el almacén, por medio de un registro detallado que puede servir también como mayor auxiliar, donde se llevan los importes en unidades monetarias y las cantidades físicas.
         
