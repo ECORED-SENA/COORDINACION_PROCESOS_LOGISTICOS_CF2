@@ -301,7 +301,7 @@ export default {
         regional: 'Regional Santander',
       },
       {
-        nombre: 'hana Johanna Bustillo Ardila',
+        nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Validación de diseño y contenido',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
