@@ -127,61 +127,22 @@
             alt='Mapa de TIC en la gestión de almacenes'
           )
 
-    .row.justify-content-center
-      .col-lg-12
-        .tarjeta-avatar-b
-          img(src='@/assets/curso/tema2/letra1.svg', alt='AvatarTop')
-          .tarjeta.transparent1
-            .p-4
-              .h4 LMS (Labor Management System)
-              p Sistema de control de las actividades de los operadores del almacén, por lo cual se convierte en un complemento para el WMS. Una ventaja generada por su utilización es el aumento casi inmediato de la productividad del almacén casi al 100%, ya que se logra el mejoramiento del desempeño de los trabajadores y el aprovechamiento de los recursos en el almacén, a través del control y seguimiento sobre estos. La principal desventaja para que una empresa lo implemente como práctica para mejorar las operaciones del almacén, son las modificaciones necesarias a la estructura operacional y las altas inversiones que significan su puesta en marcha. Los sistemas LMS en su mayoría traen incluidas buenas prácticas para la realización de tareas en el almacén e indicadores para medir su rendimiento.
+    .row.mb-5.justify-content-center
+      .col-md-6.mb-5.mb-md-0
+        //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
+        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+        LineaTiempoD.color-acento-contenido
+          p.text-small(numero="a" titulo="LMS (Labor Management System)") Sistema de control de las actividades de los operadores del almacén, por lo cual se convierte en un complemento para el WMS. Una ventaja generada por su utilización es el aumento casi inmediato de la productividad del almacén casi al 100%, ya que se logra el mejoramiento del desempeño de los trabajadores y el aprovechamiento de los recursos en el almacén, a través del control y seguimiento sobre estos. La principal desventaja para que una empresa lo implemente como práctica para mejorar las operaciones del almacén, son las modificaciones necesarias a la estructura operacional y las altas inversiones que significan su puesta en marcha. Los sistemas LMS en su mayoría traen incluidas buenas prácticas para la realización de tareas en el almacén e indicadores para medir su rendimiento.
+          
+          p.text-small(numero="b" titulo="Código de Barras") Tecnología de codificación que permite capturar información relacionada con los números de identificación de artículos, unidades logísticas y localizaciones de manera automática e inequívoca en cualquier punto de la red de valor. Se alcanza una eficiencia considerable cuando se maneja un solo código del producto, a través de la cadena de suministro.
+          
+          p.text-small(numero="c" titulo="RFID (Radio Frequency Identification)") Tecnología que usa ondas de radio para identificar productos de forma automática. Involucra el uso de etiquetas o tags que emiten señales de radio a los lectores encargados de recoger las señales. El RFID tiene gran potencial de uso, convirtiéndose en la base del EPC (Electronic Product Code) que es un estándar internacional de codificación, que identifica de manera única un producto a nivel mundial.
+          
+          p.text-small(numero="d" titulo="Picking To Voice y Picking To Light") Sistemas de señalización sin papeles, que se basan en redes luminosas y sistemas de voz. El Pick to Light se compone de un conjunto de luces que indican al operario las ubicaciones y las cantidades a recoger de los productos y suelen tener conexión con el sistema de inventarios para que se actualice en tiempo real una vez realizada la operación. En el Pick to Voice, el operario del almacén lleva un equipo de comunicación que permite recibir y enviar mensajes acerca de las operaciones de recogida de productos a realizar.
 
-    .row.justify-content-center
-      .col-lg-12
-        .tarjeta-avatar-b
-          img(src='@/assets/curso/tema2/letra2.svg', alt='AvatarTop')
-          .tarjeta.transparent1
-            .p-4
-              .h4 Código de Barras
-              p Tecnología de codificación que permite capturar información relacionada con los números de identificación de artículos, unidades logísticas y localizaciones de manera automática e inequívoca en cualquier punto de la red de valor. Se alcanza una eficiencia considerable cuando se maneja un solo código del producto, a través de la cadena de suministro.
+          p.text-small(numero="e" titulo="YMS (Yard Management System)") Sistema de administración de patios que permite controlar los muelles de recepción y despacho, y rastrear y seguir el movimiento de los trailers a través de tecnología de localización en tiempo real.
 
-    .row.justify-content-center
-      .col-lg-12
-        .tarjeta-avatar-b
-          img(src='@/assets/curso/tema2/letra3.svg', alt='AvatarTop')
-          .tarjeta.transparent1
-            .p-4
-              .h4 RFID (Radio Frequency Identification)
-              p Tecnología que usa ondas de radio para identificar productos de forma automática. Involucra el uso de etiquetas o tags que emiten señales de radio a los lectores encargados de recoger las señales. El RFID tiene gran potencial de uso, convirtiéndose en la base del EPC (Electronic Product Code) que es un estándar internacional de codificación, que identifica de manera única un producto a nivel mundial.
-
-
-    .row.justify-content-center
-      .col-lg-12
-        .tarjeta-avatar-b
-          img(src='@/assets/curso/tema2/letra4.svg', alt='AvatarTop')
-          .tarjeta.transparent1
-            .p-4
-              .h4 Picking To Voice y Picking To Light
-              p Sistemas de señalización sin papeles, que se basan en redes luminosas y sistemas de voz. El Pick to Light se compone de un conjunto de luces que indican al operario las ubicaciones y las cantidades a recoger de los productos y suelen tener conexión con el sistema de inventarios para que se actualice en tiempo real una vez realizada la operación. En el Pick to Voice, el operario del almacén lleva un equipo de comunicación que permite recibir y enviar mensajes acerca de las operaciones de recogida de productos a realizar.
-
-    .row.justify-content-center
-      .col-lg-12
-        .tarjeta-avatar-b
-          img(src='@/assets/curso/tema2/letra5.svg', alt='AvatarTop')
-          .tarjeta.transparent1
-            .p-4
-              .h4 YMS (Yard Management System)
-              p Sistema de administración de patios que permite controlar los muelles de recepción y despacho, y rastrear y seguir el movimiento de los trailers a través de tecnología de localización en tiempo real.
-
-    .row.justify-content-center
-      .col-lg-12
-        .tarjeta-avatar-b
-          img(src='@/assets/curso/tema2/letra6.svg', alt='AvatarTop')
-          .tarjeta.transparent1(style='border-bottom: 2px solid #afafaf;')
-            .p-4
-              .h4 SCE (Supply Chain Execution)
-              p Es una tecnología que se enfoca a la optimización de movimiento de materiales entre el centro de distribución y los otros agentes de la cadena de suministro. Este sistema es la integración de otras herramientas de ejecución y visibilidad de la cadena de suministro, tales como: TMS (Transportación Management System), LMS y WMS, entre otros.
-
+          p.text-small(numero="f" titulo="SCE (Supply Chain Execution)") Es una tecnología que se enfoca a la optimización de movimiento de materiales entre el centro de distribución y los otros agentes de la cadena de suministro. Este sistema es la integración de otras herramientas de ejecución y visibilidad de la cadena de suministro, tales como: TMS (Transportación Management System), LMS y WMS, entre otros.
 
 
     #t_4_4.titulo-segundo.mt-5
@@ -207,7 +168,7 @@
     #t_4_5.titulo-segundo
       .h2 4.5 Factores de riesgo en un almacén
     
-    p.mb-4 Las actividades del almacén, generalmente, se realizan en unas condiciones especiales de temperatura, iluminación, humedad, ventilación y ruido; producidas por máquinas, herramientas, vehículos, etc. El trabajo que se realiza dentro del almacén también supone mover constantemente cargas pesadas, apilar en el suelo o estanterías volúmenes considerables de mercancías y coordinar el desplazamiento de los medios o en vehículos de transporte interno con el tránsito de las personas, que a veces tiene lugar en los mismos pasillos o zonas de acceso.
+    p.mb-4 Las actividades del almacén, generalmente, se realizan en unas condiciones especiales de temperatura, iluminación, humedad, ventilación y ruido; producidas por máquinas, herramientas, vehículos, etc. El trabajo que se realiza dentro del almacén también supone mover constantemente cargas pesadas, apilar en el suelo o en estanterías volúmenes considerables de mercancías y coordinar el desplazamiento de los medios o en vehículos de transporte interno con el tránsito de las personas, que a veces tiene lugar en los mismos pasillos o zonas de acceso.
     p.mb-4 Los siguientes son factores que dependiendo de su manejo representan riesgos para el trabajador:
     
     .row.justify-content-center.mb-4
@@ -261,7 +222,7 @@ export default {
       {
         titulo: 'Carretillas manuales',
         texto:
-          'Las carretillas de almacén son responsables del movimiento interno de la mercancía, desde los muelles a las ubicaciones de las estanterías, o desde las áreas de producción al almacén.',
+          'Las carretillas de almacén son responsables del movimiento interno de la mercancía, desde los muelles a las ubicaciones de las estanterías, o desde las áreas de producción al almacén. <br><br> -> Estilo no inclinado <br><br> -> Estilo inclinado con cuatro ruedas<br><br>-> Estilo con marco en A <br><br> -> Estilo estante ',
         imagen: require('@/assets/curso/tema4/img5.svg'),
         //leyendaImagen: 'Leyenda de la imagen',
       },

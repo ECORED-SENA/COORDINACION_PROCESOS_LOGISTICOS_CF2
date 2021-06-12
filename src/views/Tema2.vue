@@ -679,7 +679,7 @@
           .tarjeta.tarjeta--azul
             .p-4
               .h4 Marcas informativas
-              p Es la información adicional que aparece en el empaque o embalaje. Ej. país de origen, puerto de salida, puerto de entrada, peso bruto, peso neto, dimensiones de la caja.
+              p Es la información adicional que aparece en el empaque o embalaje. Ej.: país de origen, puerto de salida, puerto de entrada, peso bruto, peso neto, dimensiones de la caja.
 
 
 

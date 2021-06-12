@@ -276,7 +276,7 @@ export default {
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Integración de recursos y pruebas',
+        cargo: 'Soporte organizacional',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
@@ -335,7 +335,7 @@ export default {
     },
     {
       referencia:
-        'Garavito, E. (2008). Sistemas de almacenamiento. Escuela de Estudios Industriales y Empresariales , 1 - 2.',
+        'Garavito, E. (2008). Sistemas de almacenamiento. Escuela de Estudios Industriales y Empresariales, 1 - 2.',
     },
     {
       referencia:
@@ -348,7 +348,7 @@ export default {
     },
     {
       referencia:
-        'Revista de logistica legis. (2016). Tipos de almacenamiento. Revista de logistica legis.',
+        'Revista de logística legis. (2016). Tipos de almacenamiento. Revista de logística legis.',
     },
     {
       referencia:

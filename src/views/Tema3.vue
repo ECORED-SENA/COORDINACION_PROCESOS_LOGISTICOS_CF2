@@ -210,7 +210,7 @@
                 .col-lg-6
                   ol.fa-ol.lista-ol.lista-ol--separador
                     li #[span.li--clr.fa-lo #[i.fas.fa-chevron-right]] 
-                      p.mb-1 #[strong Zona de despacho ] <br> Lugar donde se lleva a cabo la expedición y revisión final de las<br> mercancías
+                      p.mb-1 #[strong Zona de despacho ] <br> Lugar donde se lleva a cabo la expedición y revisión final de las<br> mercancías.
                     
                     li #[span.li--clr.fa-lo #[i.fas.fa-chevron-right]] 
                       p.mb-1 #[strong Zona de maniobras ] <br> Sitio donde transitan tanto maquinarias como personas.

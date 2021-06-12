@@ -354,7 +354,7 @@
         .col-md-6.mb-4.mb-md-0
           ol.fa-ol.lista-ol.lista-ol--separador
             li #[span.li--clr.fa-lo #[i.fas.fa-chevron-right]]
-              p #[strong Inventario intermitente: ] es un inventario que se efectúa varias veces al año. Se recurre a el por razones diversas, no se puede introducir en la contabilidad del inventario contable permanente, al que se trata de suplir en parte.
+              p #[strong Inventario intermitente: ] es un inventario que se efectúa varias veces al año. Se recurre a él por razones diversas, no se puede introducir en la contabilidad del inventario contable permanente, al que se trata de suplir en parte.
             li #[span.li--clr.fa-lo #[i.fas.fa-chevron-right]]
               p #[strong Inventario perpetuo: ] es el que se lleva en continuo acuerdo con las existencias en el almacén, por medio de un registro detallado que puede servir también como mayor auxiliar, donde se llevan los importes en unidades monetarias y las cantidades físicas.
         
