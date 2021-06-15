@@ -99,7 +99,7 @@
                       p La carga general se suele transportar en embalajes cuya forma, capacidad y resistencia se ajustan a las características de la mercancía. No obstante, en ocasiones la carga se transporta sin ningún tipo de embalaje que lo proteja, ya que sus características permiten un transporte seguro aun careciendo de él.
                     li 
                       i.fas.fa-chevron-right
-                      strong Carga fraccionada y unitarizada.
+                      strong Carga fraccionada y unitarizada
                     li 
                       p Cuando la mercancía se presenta de forma suelta o individual como paquetes, sacos y cajas, entre otros. Si dichas formas sueltas se agrupan en unidades superiores de carga, se considera unitarizada o agrupada.
                 .col-lg-6.align-self-center
@@ -807,7 +807,7 @@ export default {
         //leyendaImagen: 'Leyenda de la imagen',
       },
       {
-        titulo: 'Otros tipos de embalaje PENDIENTE CON ANEXO',
+        titulo: 'Otros tipos de embalaje',
         texto:
           'Es aquel envase que impide la entrada de contenidos sólidos y secos, incluidas las que se producen o pueden estar presentes durante el transporte.',
         imagen: require('@/assets/curso/tema2/slyder/slyder8.svg'),

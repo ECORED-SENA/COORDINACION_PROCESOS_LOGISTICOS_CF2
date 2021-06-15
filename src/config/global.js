@@ -23,7 +23,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Gestión de almacenes - Conceptos generales',
+        titulo: 'Gestión de almacenes - conceptos generales',
         desarrolloContenidos: true,
         subMenu: [
           {
