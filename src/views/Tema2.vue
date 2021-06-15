@@ -643,7 +643,7 @@
               td.text-center Muy frágil, sensible a la humedad y al calor.
           
 
-    .h3.mb-4 Pictografia
+    .h3.mb-4 Pictografía
     p.mb-5 La simbología en los embalajes, algo muy importante teniendo en cuenta que la mayoría de los daños en mercancías se producen durante su transporte, especialmente cuando se realiza la carga o descarga. Estos pictogramas universales, colocados debidamente en las cajas, sirven de orientación para la perfecta manipulación de la carga, ya que no van acompañados de palabras escritas y son entendibles en cualquier parte del mundo. Además, están estandarizados según la norma ISO 780:1997.
 
     .titulo-quinto.color-acento-contenido
