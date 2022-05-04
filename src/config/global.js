@@ -339,8 +339,9 @@ export default {
     },
     {
       referencia:
-        'Mira, J. & Soler, D. (2010). Manual de transporte de mercancías. Barcelona: Marge Books. Organización Internacional de Normalización - ISO. (2020).',
-      link: 'https://www.iso.org/obp/ui/es/#iso:std:iso:9000:ed-4:v1:es',
+        'Mira, J. & Soler, D. (2010). Manual del transporte de mercancias (3a. ed.).. Marge Books. ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/43754',
     },
     {
       referencia:
@@ -359,6 +360,11 @@ export default {
     {
       referencia:
         'Riveros P., G. (2015). Marketing Logístico. Bogotá: Ecoe Ediciones.',
+    },
+    {
+      referencia:
+        'ISO. (2020). ISO 9000:2015(es) Sistemas de gestión de la calidad — Fundamentos y vocabulario. ',
+      link: 'https://www.iso.org/obp/ui/es/#iso:std:iso:9000:ed-4:v1:es',
     },
   ],
   glosario: [

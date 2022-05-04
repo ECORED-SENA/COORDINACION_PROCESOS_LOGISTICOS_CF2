@@ -301,8 +301,7 @@
                       p.mb-0 #[strong Autor :] Ministerio de Educación Superior
                       p.mb-0 Editorial Universitaria.
                       p.mb-0 #[strong Año :] 2015
-                      p.mb-0 #[strong Base de datos SENA :] 
-                      p.mb-0 https://elibro-net.bdigital.<br>sena.edu.co/es/ereader/<br>senavirtual/71609?page=1
+                      p.mb-0 #[strong Base de datos SENA :] e-libro
                   .col-lg-3
                     a.boton.color-acento-bonotes.texto-blanco.mx-auto(
                       href='https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/71609?page=1',
@@ -453,7 +452,7 @@
             
     .row.justify-content-center.mb-4
       .col-lg-4
-        a.anexo(:href="obtenerLink('/downloads/otrosTiposEmbalaje.pdf')" target="_blank")
+        a.anexo(:href="obtenerLink('downloads/otrosTiposEmbalaje.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
